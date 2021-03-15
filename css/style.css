@@ -1,0 +1,160 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.main-bg{
+    background: linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+}
+
+.elements{
+    background-color: rgba(0,0,0,0.5);
+    border:1px solid #fff;
+    border-radius: 10px;
+    font-size:20px;
+    color: #fff;
+    padding: 10px;
+}
+.givePadding{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+.navBar{
+    background-color:rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+.navBar .elements{
+    height:50px;
+}
+
+@media (min-width: 768px){
+    .navBar .elements{
+        height:80px;
+    }
+}
+.jambotron{
+    border: 1px solid #fff;
+    padding-top: 84px;
+    padding-bottom: 70px;
+    min-height: 75vh;
+}
+
+.jambotron .elements{
+    height: 300px;
+}
+
+.whatsOn{
+    background-color: #fff;
+}
+
+.whatsOn .album-art{
+    float: left;
+    width: 50%;
+}
+
+.whatsOn .album-art .elements{
+    padding-top: 100%;
+}
+
+@media (min-width: 768px){
+    .whatsOn .album-art{
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px){
+    .whatsOn .album-art{
+        width: 50%;
+    }
+}
+
+@media(min-width: 768px) and (max-width:991px){
+    .hidden-md{
+        display:none;
+    }
+}
+
+.albums .phone-group{
+    transform: rotate(30deg);
+    width: 597px;
+    left: -40px;
+    margin-bottom: -400px;
+}
+
+@media (min-width:768px){
+    .albums .phone-group{
+        position: absolute;
+        left: 100px;
+        top: -300px;
+        width: 1134px;
+    }
+}
+
+.albums .phone{
+    width: 179px;
+    height: 365px;
+    border: 5px solid #7c25f8;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+@media (min-width:768px){
+    .albums .phone{
+        width: 358px;
+        height: 730px;
+        border-radius: 40px;
+    }
+}
+.albums .phone1, .albums .phone4 {
+    margin-top: 200px;
+}
+
+
+.devices{
+    background-color: #222326;
+}
+
+.devices .elements{
+    height: 300px;
+}
+
+.subscriptions .elements{
+    height: 800px;
+}
+
+footer{
+    background-color: #000;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+footer .elements{
+    height: 200px;
+}
+
+footer .row-small{
+    margin-top: 100px;
+}
+
+footer .row-small .elements{
+    height: 40px;
+}
