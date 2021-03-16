@@ -6,9 +6,9 @@
   + float浮動排版(清除浮動clearfix)
   + RWD響應式設計
   	+ 設備的Viewport Sizes
-  	+ 高度單位vh
-	+ Media query媒體查詢
-	+ 流動式設計(往下持續排版)
+  	+ 運用vw、vh，讓寬高可依據螢幕可視範圍寬度或高度的百分比去做縮放
+	+ Media Query設定裝置與條件
+	
   
 ### Link
 https://yeh326797.github.io/SpotifyLayout/
